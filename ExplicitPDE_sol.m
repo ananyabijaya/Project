@@ -1,4 +1,5 @@
 %% Numerical modelling and simulation project
+%Dynamic response of a simply supported beam
 clc
 clear
 %Given
