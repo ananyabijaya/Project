@@ -1,6 +1,5 @@
 %% Numerical modelling and simulation project
 %Dynamic response of a simply supported beam subjected to a concentrated load at the center
-%Change made in the implicit branch
 clc
 clear
 %Given
