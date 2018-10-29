@@ -1,2 +1,7 @@
 *.log
 *.aux
+*.jpg
+*.odg
+*.png
+*.pdf
+*.synctex.gz
