@@ -78,7 +78,7 @@ For\quad 1\leq i\leq n \quad and \quad 1\leq m\leq T\nonumber\\[3pt]
 \pdv[2]{w}{t}=\frac{w^{m+1}_{i}-2w^m_i+w^{m-1}_i}{\Delta t^2}\nonumber\\[3pt]
 \pdv[4]{w}{x}=\frac{w^m_{i-2}-4w^4_{i-1}+6w^m_i-4w^m_{i+1}+w^m_{i+2}}{\Delta x^4}\nonumber\\[3pt]
 \frac{w^{m+1}_i-2w^m_i+w^{m-1}_i}{\Delta t^2}=-\frac{EI}{\Delta x^4 \rho A}\Big(w^m_{m-2}-4w^m_{i-1}+6w^m_i-4w^m_{i+1}+w^m_{i+2}\Big) \nonumber\\[3pt] 
-w^{m+1}_i=-\frac{EI\Delta t^2}{\Delta x^4 \rho A}\Big(w^m_{m-2}-4w^m_{i-1}+6w^m_i-4w^m_{i+1}+w^m_{i+2}\Big)+2w^m_i-w^{m-1}_i \\[3pt]
+w^{m+1}_i=-\frac{EI\Delta t^2}{\Delta x^4 \rho A}\Big(w^m_{i-2}-4w^m_{i-1}+6w^m_i-4w^m_{i+1}+w^m_{i+2}\Big)+2w^m_i-w^{m-1}_i \\[3pt]
 \textit{For first time step; Putting m=2}\nonumber\\
 \pdv{w}{t}\Big|_{m=1}=\frac{w^1_i-w^{0}_i}{\Delta t}\nonumber \\[3pt]
 w^{0}_i=w^1_i-\Delta{t}\pdv{w}{t}\Big|_{m=1}=w_i^1 \nonumber\\[3pt]
